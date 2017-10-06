@@ -17,7 +17,21 @@ class ViewController: UIViewController
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-    override func didReceiveMemoryWarning() {
+    @IBAction func firstMethod(_ sender: UIButton)
+    {
+      if (firstButton.backgroundColor == .orange)
+      {
+        firstButton.backgroundColor = .black
+      }
+      else
+      {
+        firstButton.backgroundColor = .orange
+      }
+        
+        
+    }
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
