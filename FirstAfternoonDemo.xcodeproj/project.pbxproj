@@ -35,6 +35,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4477DAE1F8812A400A0C328 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E496D8CE1F88010C00CA8F54 /* AppDelegate.swift */,
+				E496D8D01F88010C00CA8F54 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E4477DAF1F8812E000A0C328 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E496D8DA1F88010C00CA8F54 /* Info.plist */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		E496D8C21F88010C00CA8F54 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +71,11 @@
 		E496D8CD1F88010C00CA8F54 /* FirstAfternoonDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E496D8CE1F88010C00CA8F54 /* AppDelegate.swift */,
-				E496D8D01F88010C00CA8F54 /* ViewController.swift */,
+				E4477DAE1F8812A400A0C328 /* Controller */,
 				E496D8D21F88010C00CA8F54 /* Main.storyboard */,
 				E496D8D51F88010C00CA8F54 /* Assets.xcassets */,
 				E496D8D71F88010C00CA8F54 /* LaunchScreen.storyboard */,
-				E496D8DA1F88010C00CA8F54 /* Info.plist */,
+				E4477DAF1F8812E000A0C328 /* Settings */,
 			);
 			path = FirstAfternoonDemo;
 			sourceTree = "<group>";
@@ -275,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FirstAfternoonDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FirstAfternoonDemo/Settings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CTEC.FirstAfternoonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FirstAfternoonDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FirstAfternoonDemo/Settings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CTEC.FirstAfternoonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
